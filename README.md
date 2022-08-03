@@ -14,3 +14,17 @@
 **Seção 3:**
   - Comportamento de memória, arrays, listas e Tópicos especiais em Java (Date)
 
+**Seção 4:**
+  - Enumerações e Composição
+  
+  **Seção 5:**
+  - Herança e Polimorfismo
+  
+  **Seção 6:**
+  - Tratamento de exceções
+  
+  **Seção 7:**
+  - Projeto: Sistema jogo de xadrez
+
+
+
