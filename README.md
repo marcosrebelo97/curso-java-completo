@@ -1,6 +1,6 @@
 # Java Completo - Programação Orientada a Objetos + Projetos.
 <h4>Curso de Java ministrado pelo prof. Nélio Alves através da plataforma Udemy.</h4>
-<h4>Em andamento...</h4>
+<h4>Obs: Em andamento...</h4>
 
 ****************************************************************************
 <h4>Descrição: o curso foi dividido em seções com seus respectivos assuntos.</h4>
