@@ -1,19 +1,22 @@
 
-<h3 align="center"> Java Completo - Programação Orientada a Objetos + Projetos </h2>
-<h4>Curso de Java ministrado pelo prof. Nélio Alves através da plataforma Udemy.</h4>
-<h4>Obs: Em andamento...</h4>
+<h3 align="center"> Curso de Java Completo - Programação Orientada a Objetos + Projetos </h2>
 
-****************************************************************************
-<h4>Descrição: o curso foi dividido em seções com seus respectivos assuntos.</h4>
+Ministrado pelo prof. Nélio Alves na plataforma Udemy.
+
+#### Obs: curso em andamento...
+
+*************************************************************
+
+Descrição: o curso foi dividido em seções com seus respectivos assuntos.</h4>
 
 **Seção 1:**
   - Introdução à Programação Orientada a Objetos
 
 **Seção 2:**
-  - Construtores, palavra this, sobrecarga e encapsulamento
+  - Construtores, This, Sobrecarga e Encapsulamento
 
 **Seção 3:**
-  - Comportamento de memória, arrays, listas e Tópicos especiais em Java (Date)
+  - Comportamento de memória, Arrays, Listas e Tópicos especiais em Java (Date)
 
 **Seção 4:**
   - Enumerações e Composição
