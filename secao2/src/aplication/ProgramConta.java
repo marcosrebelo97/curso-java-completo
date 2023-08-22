@@ -41,13 +41,14 @@ public class ProgramConta {
 		System.out.print("Enter a deposite value: ");
 		double valorDepositado = sc.nextDouble();
 		conta.depositoConta(valorDepositado);
+		
 		System.out.print("Update account data: ");
 		System.out.println(conta);
-		
-		
+
 		System.out.print("Enter a withdraw value: ");
 		double saque = sc.nextDouble();
 		conta.saqueConta(saque);
+
 		System.out.print("Update account data: ");
 		System.out.println(conta);
 		
