@@ -28,7 +28,7 @@ public class ProgramMatriz {
                 }
             }
         }
-        //System.out.println("Negative numbers:" + count);
+        System.out.println("Negative numbers:" + count);
 
     }
 }
