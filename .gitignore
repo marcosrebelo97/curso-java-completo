@@ -2,3 +2,6 @@
 .project
 .idea/
 .settings/
+out/production/secao4/application/Program.class
+out/production/secao4/entities/Order.class/
+out/production/secao4/entities/enums/OrderStatus.class
