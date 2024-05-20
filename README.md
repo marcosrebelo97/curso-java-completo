@@ -28,5 +28,14 @@ Ministrado pelo prof. Nélio Alves na plataforma Udemy.
 #### Seção 7:
   - Projeto: Sistema jogo de xadrez
 
+#### Seção 8:
+  - Interfaces
+    
+#### Seção 9:
+  - Generics, Set, Map
+
+#### Seção 10:
+  - Programação Funcional e Expressões Lambda
+
 
 
