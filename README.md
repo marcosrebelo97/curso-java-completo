@@ -26,7 +26,7 @@ Ministrado pelo prof. Nélio Alves na plataforma Udemy.
   - Tratamento de exceções
   
 #### Seção 7:
-  - Projeto: Sistema jogo de xadrez
+  - Trabalhando com Arquivos
 
 #### Seção 8:
   - Interfaces
@@ -36,6 +36,9 @@ Ministrado pelo prof. Nélio Alves na plataforma Udemy.
 
 #### Seção 10:
   - Programação Funcional e Expressões Lambda
+
+#### Seção 11:
+  - Projeto: Sistema jogo de Xadrez
 
 
 
