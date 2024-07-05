@@ -1,11 +1,13 @@
 package application;
 
 import entities.Product;
+import util.UpperCaseName;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class Program2 {
+public class Program3 {
     public static void main(String[] args) {
 
         List<Product> list = new ArrayList<>();
@@ -14,12 +16,8 @@ public class Program2 {
         list.add(new Product("Ventilador", 300.00));
         list.add(new Product("Adaptador", 50.00));
 
-        double min = 100.0;
-        list.removeIf(p -> p.getPrice() >= min);
-
-        for (Product p : list){
-            System.out.println(p);
-        }
+        List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
+        names.forEach(System.out::println);
 
     }
 }
