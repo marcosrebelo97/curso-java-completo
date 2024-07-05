@@ -1,7 +1,6 @@
 package application;
 
 import entities.Product;
-import util.UpperCaseName;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +15,8 @@ public class Program3 {
         list.add(new Product("Ventilador", 300.00));
         list.add(new Product("Adaptador", 50.00));
 
-        List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
+
+        List<String> names = list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList());
         names.forEach(System.out::println);
 
     }
