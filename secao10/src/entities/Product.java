@@ -6,7 +6,9 @@ public class Product {
     private String name;
     private Double price;
 
-    public Product(String tv, double v){
+    public Product(String name, double price){
+        this.name = name;
+        this.price = price;
     }
 
     public String getName() {
@@ -25,9 +27,13 @@ public class Product {
         this.price = price;
     }
 
+    public static boolean staticProductPredicate(Product p){
+        return p.getPrice() >= 100.0;
+    }
+
     @Override
     public String toString() {
-        return "Product [name=" + name + ", price=" + price + "]";
+        return "Product: name = " + name + ", price = " + price;
     }
 
 }
