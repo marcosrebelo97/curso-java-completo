@@ -38,7 +38,16 @@ Ministrado pelo prof. Nélio Alves na plataforma Udemy.
   - Programação Funcional e Expressões Lambda
 
 #### Seção 11:
-  - Projeto: Sistema jogo de Xadrez
+  - Java EE - Mapeamento Objeto-Relacional com JPA/Hibernate
+
+#### Seção 12:
+  - Projeto: Web Services com Spring Boot e JPA/Hibernate
+
+#### Seção 13:
+  - Projeto: API Restful com Spring Boot e MongoDB (Web Services e NoSQL)
+
+#### Seção 14:
+  - Interface Gráfica com JavaFX
 
 
 
