@@ -1,0 +1,1 @@
+INSERT INTO tb_user (name, email, password, phone) VALUES ('Marcos', 'marcos@gmail.com', '999999', '12134')

@@ -4,29 +4,24 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-
+import java.time.Instant;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode(of = "id")
+@Table(name = "tb_order")
 @Entity
-@Table(name = "tb_user")
-public class User implements Serializable {
+public class Order implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
-    private String email;
-    private String phone;
-    private String password;
+    private Instant moment;
 
-    @OneToMany(mappedBy = "client")
-    private List<Order> orders = new ArrayList<>();
-
+    @ManyToOne
+    @JoinColumn(name = "client_id")
+    private User client;
 }

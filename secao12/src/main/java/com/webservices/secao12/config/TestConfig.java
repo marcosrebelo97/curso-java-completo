@@ -1,4 +1,4 @@
-package com.webservices.secao12.config;
+/*package com.webservices.secao12.config;
 
 import com.webservices.secao12.entities.User;
 import com.webservices.secao12.repositories.UserRepository;
@@ -15,12 +15,11 @@ public class TestConfig implements CommandLineRunner {
     @Autowired
     private UserRepository userRepository;
 
-
     @Override
     public void run(String... args) throws Exception {
-        User u1 = new User(null, "Marcos", "marcos@gmail.com", "999999", "12134");
+        User u1 = new User(null, "Maria Brown", "maria@gmail.com", "988888888", "123456");
 
         userRepository.save(u1);
 
     }
-}
+}*/
