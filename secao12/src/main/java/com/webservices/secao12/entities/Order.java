@@ -1,6 +1,7 @@
 package com.webservices.secao12.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.webservices.secao12.entities.enums.OrderStatus;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -23,6 +24,9 @@ public class Order implements Serializable {
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss'Z'", timezone = "GMT")
     private Instant moment;
+
+    @JoinColumn(name = "order_status")
+    private Integer orderStatus;
 
     @ManyToOne
     @JoinColumn(name = "client_id")
