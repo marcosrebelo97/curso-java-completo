@@ -1,7 +1,6 @@
 package com.webservices.secao12.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.webservices.secao12.entities.enums.OrderStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -5,3 +5,6 @@ INSERT INTO tb_user (name, email, phone, password) VALUES ('Enrico', 'enrico@gma
 INSERT INTO tb_order (moment, order_status, client_id) VALUES (NOW(), 1, 1);
 INSERT INTO tb_order (moment, order_status, client_id) VALUES (NOW(), 2, 2);
 INSERT INTO tb_order (moment, order_status, client_id) VALUES (NOW(), 3, 3);
+
+INSERT INTO tb_category (name) VALUES ('Books');
+INSERT INTO tb_category (name) VALUES ('Computers');
