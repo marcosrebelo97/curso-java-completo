@@ -24,9 +24,10 @@ public class Product implements Serializable {
     private String name;
     private String description;
     private Double price;
+    @Column(name = "img")
     private String imgUrl;
 
-
+    @Transient
     private Set<Category> categories = new HashSet<>();
 
 }

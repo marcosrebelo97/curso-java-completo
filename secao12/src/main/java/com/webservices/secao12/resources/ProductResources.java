@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "/products")
 public class ProductResources {
 
     @Autowired
