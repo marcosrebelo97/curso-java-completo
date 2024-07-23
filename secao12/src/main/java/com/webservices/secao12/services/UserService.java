@@ -2,6 +2,7 @@ package com.webservices.secao12.services;
 
 import com.webservices.secao12.entities.User;
 import com.webservices.secao12.repositories.UserRepository;
+import com.webservices.secao12.services.exceptions.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +20,7 @@ public class UserService {
     }
 
     public Optional<User> findById(Long id){
-        return userRepository.findById(id);
+        return Optional.ofNullable(userRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException(id)));
     }
 
     public User insert(User user){
