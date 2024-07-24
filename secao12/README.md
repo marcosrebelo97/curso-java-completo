@@ -1,9 +1,6 @@
 # Projeto Web com Spring Boot e JPA/Hibernate
 
-Este é um projeto de exemplo desenvolvido com Spring Boot e JPA/Hibernate. 
-
-O objetivo deste projeto é demonstrar a criação de uma aplicação web utilizando essas tecnologias, juntamente com o Maven para gerenciamento de dependências e o Spring Data JPA para acesso a dados ORM. A arquitetura do projeto segue os princípios de Entities, Repositories, Resources (Controllers) e Services.
-
+Este é um projeto de exemplo que demonstra a criação de uma aplicação web utilizando Spring Boot, JPA/Hibernate, Spring Data JPA e Maven. 
 
 ## Estrutura do Projeto
 
